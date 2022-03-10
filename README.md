@@ -12,8 +12,8 @@ The default lang is `en`, so theharvestgame.com without prefix should be show th
 
 The json files with contains lang tokens are in `public/locales/${lang}`
 
-`home_${section}.json` is the file that contain the tokens for the `/` home page
-`marketplace_${section}.json` is the file that contain the tokens for the `/marketplace` page
+- `home_${section}.json` is the file that contain the tokens for the `/` home page
+- `marketplace_${section}.json` is the file that contain the tokens for the `/marketplace` page
 
 We should add a new files for each new page in the site using the following format: `${page}_${section}.json`
 Is not required but is a easier way to handle langs in the future
